@@ -29,7 +29,7 @@ links:
   - icon: brands/github
     url: https://github.com/TenzinDann
   - icon: brands/linkedin
-    url: www.linkedin.com/in/fnu-danzengcairang
+    url: https://www.linkedin.com/in/fnu-danzengcairang/
   #- icon: academicons/google-scholar
     #url: https://scholar.google.com/citations?user=example
 
@@ -92,12 +92,16 @@ skills:
 
 languages:
   - name: Chinese
+    level: 5
     label: Native
   - name: Tibetan
+    level: 5
     label: Native
   - name: English
+    level: 4
     label: Fluent
   - name: Japanese
+    level: 4
     label: Fluent
 
 awards:

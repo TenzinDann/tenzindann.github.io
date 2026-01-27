@@ -20,7 +20,7 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: 'Greetings Stranger'
+        about: 'Greeting, Stranger'
         education: ''
         interests: ''
     design:

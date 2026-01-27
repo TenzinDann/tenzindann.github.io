@@ -24,12 +24,12 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: 
+    url: "mailto:cdanzeng@ucsd.edu"
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/TenzinDann
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: www.linkedin.com/in/fnu-danzengcairang
   #- icon: academicons/google-scholar
     #url: https://scholar.google.com/citations?user=example
 

@@ -7,7 +7,7 @@ name:
   family: ''
   alternate: 'Tenzin'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: Tenzin
 postnominals:
   - ''
   - ''
@@ -34,9 +34,10 @@ links:
     #url: https://scholar.google.com/citations?user=example
 
 interests:
-  - Deep Learning 
-  - Computer Hardware
+  - Machine Learning 
+  - Data Analysis
   - Reinforcement Learning
+  - Computer Hardware
   - Social Thoughts
   - Minority Culture
   - Linguistics

@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Danzeng Cairang / Tenzin
+  display: Danzeng Cairang
   given: ''
   family: ''
   alternate: 'Tenzin'  # Example: 王伟
@@ -19,15 +19,15 @@ bio: |
   My research has been published in CNKI, mostly in the social sciences.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: UCSD
+    url: https://css.ucsd.edu/
 
 links:
   - icon: at-symbol
-    url: cdanzeng@ucsd.edu
+    url: 
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/TenzinDann
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/example/
   #- icon: academicons/google-scholar
@@ -52,7 +52,7 @@ education:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: BS Sociology
+  - degree: Bachelor of Sociology
     institution: Southwest Minzu University
     start: 2018-09-01
     end: 2022-06-15
@@ -104,5 +104,5 @@ awards:
   - title: Best Paper Award
     awarder: NeurIPS
     date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+    Summary: Awarded for groundbreaking work on efficient training of large models.
     icon: hero/trophy

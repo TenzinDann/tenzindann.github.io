@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Danzeng Cairang
+  display: Danzeng Cairang / Tenzin
   given: ''
   family: ''
   alternate: 'Tenzin'  # Example: 王伟
@@ -12,7 +12,7 @@ postnominals:
   - ''
   - ''
 status:
-  icon: "☕️"
+  icon: "😄"
 role: Sociologist, Anthropologist, AI Engineer
 bio: |
   An AI Engineer who has a Sociology and Anthropology background, and also a Computer Hardware Specialist and part-time Bike Engineer.
@@ -30,8 +30,8 @@ links:
     url: https://github.com/example
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+  #- icon: academicons/google-scholar
+    #url: https://scholar.google.com/citations?user=example
 
 interests:
   - Deep Learning 
@@ -81,8 +81,6 @@ skills:
         level: 5
       - label: Machine Learning
         level: 5
-      - label: Cloud Computing
-        level: 4
   - name: Research & Communication
     items:
       - label: Academic Writing

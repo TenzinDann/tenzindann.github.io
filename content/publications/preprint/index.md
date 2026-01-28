@@ -3,7 +3,7 @@ title: "The Swan Song of Matrilineal Clans: The Walking Marriage Customs and the
 authors:
 - me
 - Genga Wengmu
-date: "2023-04-10T00:00:00Z"
+date: "2023-02-10T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-04-12T00:00:00Z"
@@ -11,10 +11,10 @@ publishDate: "2025-04-12T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Journal of Sichuan Minzu College"
 publication_short: ""
 
 abstract: As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other area of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day. Zhaba is also famous for walking marriage. The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area. In recent years, with the increasing frequency of cultural contact and ethnic exchanges, the custom of walking marriage in Zhaba has begun to undergo some changes, which poses new challenges to Zhaba, which is currently on the edge of endangered ethnic cultures.Therefore, this article explores the social and cultural foundation, basic characteristics, and contemporary changes of the walking marriage customs of the Zhaba Zang people, in order to focus on and grasp the core elements that enable the preservation and transformation of the Zhaba walking marriage customs.
@@ -24,32 +24,31 @@ abstract: As one of the ancient and mysterious ethnic groups of Zang people, Zha
 
 tags:
 - Social Science
+- Minority Cultures
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
-
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+- type: published
+  provider: CNKI
+  id: DOI：10.13934/j.cnki.cn51-1729/g4.2025.01.001
+- type: website
+  url: "https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2025&filename=KDSZ202501003&uniplatform=OVERSEA&v=Ww-cxPUktIXehThy5UhUUU40mRH5BGqOyVlpgL2niU90CsZsqcpwU-viD1FdQc9S"
+#- type: code
+#  url: https://github.com/HugoBlox/kit
+#- type: slides
+#  url: https://www.slideshare.net/
+#- type: dataset
+#  url: "#"
+#- type: poster
+#  url: "#"
+#- type: source
+#  url: "#"
+#- type: video
+#  url: https://youtube.com
+#- type: custom
+#  label: Custom Link
+#  url: http://example.org
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -63,8 +62,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -79,4 +77,3 @@ This work is driven by the results in my [previous paper](/publications/conferen
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

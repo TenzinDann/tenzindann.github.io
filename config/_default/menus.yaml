@@ -10,7 +10,7 @@ main:
   - name: Publications
     url: /#papers
     weight: 11
-  - name: Profolios
+  - name: Profolio
     url: /#talks
     weight: 12
   - name: Activities

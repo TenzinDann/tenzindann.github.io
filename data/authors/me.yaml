@@ -81,13 +81,6 @@ experience:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: Research Fellow
-    org: Southwest Minzu University
-    start: 2020-02-07
-    end: 2021-10-22
-    summary: |
-      Secondary Writer of the National Social Sciences General Cultivation Project. “Investigation on the Kham Dialect of the Tibetan Language”
-
      
 skills:
   - name: Technical Skills

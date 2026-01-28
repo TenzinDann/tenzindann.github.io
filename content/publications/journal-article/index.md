@@ -1,15 +1,15 @@
 ---
-title: "An example journal article"
+title: "The Swan Song of Matrilineal Clans: The Walking Marriage Customs and their Evolution Among the Zhaba Zang People"
 authors:
 - me
-- Robert Ford
+- Genga Wengmu
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2025-04-12T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-04-17T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,10 +17,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Journal of Sichuan Minzu College, 2025*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other area of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day. Zhaba is also famous for walking marriage. The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area. In recent years, with the increasing frequency of cultural contact and ethnic exchanges, the custom of walking marriage in Zhaba has begun to undergo some changes, which poses new challenges to Zhaba, which is currently on the edge of endangered ethnic cultures.Therefore, this article explores the social and cultural foundation, basic characteristics, and contemporary changes of the walking marriage customs of the Zhaba Zang people, in order to focus on and grasp the core elements that enable the preservation and transformation of the Zhaba walking marriage customs.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

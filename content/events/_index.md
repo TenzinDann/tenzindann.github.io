@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Profolio Album
 cms_exclude: true
 #url: talk
 

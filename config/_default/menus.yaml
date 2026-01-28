@@ -7,13 +7,13 @@ main:
   - name: About Me
     url: /
     weight: 10
-  - name: Papers
+  - name: Publications
     url: /#papers
     weight: 11
   - name: Conferences
     url: /#talks
     weight: 12
-  - name: News
+  - name: Activities
     url: /#news
     weight: 13
   - name: Experience

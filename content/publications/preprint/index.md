@@ -3,7 +3,7 @@ title: "The Swan Song of Matrilineal Clans: The Walking Marriage Customs and the
 authors:
 - me
 - Genga Wengmu
-date: "2023-02-10T00:00:00Z"
+date: "2025-04-12T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-04-12T00:00:00Z"
@@ -29,9 +29,6 @@ tags:
 featured: true
 
 links:
-- type: published
-  provider: CNKI
-  id: DOI：10.13934/j.cnki.cn51-1729/g4.2025.01.001
 - type: website
   url: "https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2025&filename=KDSZ202501003&uniplatform=OVERSEA&v=Ww-cxPUktIXehThy5UhUUU40mRH5BGqOyVlpgL2niU90CsZsqcpwU-viD1FdQc9S"
 #- type: code
@@ -71,8 +68,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-

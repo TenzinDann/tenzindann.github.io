@@ -77,5 +77,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-> Create your slides in Markdown - click the _Slides_ button to check out the example.

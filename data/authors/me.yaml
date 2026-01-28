@@ -59,21 +59,22 @@ education:
     end: 2022-06-15
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Research Assistant
+    org: Southwest Minzu University
+    start: 2021-12-05
+    end: 2023-12-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Member of Tibetan-Qiang-Yi Cultural Research Institute of Southwest University for Nationalities, Project “Study of the Kham Dialect in Tibetan Language”
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Research Assistant
+    org: Southwest Minzu University
+    start: 2022-07-21
+    end: 2024-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Member of National Social Science Fund Project, Project “Reference Grammar Study of the Muya Dialect of the Kham Variant in Tibetan Language”
 
 skills:
   - name: Technical Skills

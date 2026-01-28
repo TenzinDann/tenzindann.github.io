@@ -87,7 +87,7 @@ experience:
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Data Analysis
         level: 5
       - label: Machine Learning
         level: 5
@@ -95,10 +95,20 @@ skills:
     items:
       - label: Academic Writing
         level: 5
-      - label: Conference Presentations
+      - label: Conference Presentation
         level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Field Research Experiences
+        level: 5
+  - name: Hobbies
+    items:
+      - label: Computational Hardware Assembly
+        level: 5
+      - label: Mountain Bike Assembly and Repair
+        level: 5
+      - label: Deep Learning in Music, Painting and Video Production
+        level: 5
+      - label: Game Model Designing
+        level: 5
 
 languages:
   - name: Chinese

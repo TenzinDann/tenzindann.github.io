@@ -77,10 +77,6 @@ experience:
     end: 2023-12-01
     summary: |
       Member of Tibetan-Qiang-Yi Cultural Research Institute of Southwest University for Nationalities, Project “Study of the Kham Dialect in Tibetan Language”
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
      
 skills:
   - name: Technical Skills

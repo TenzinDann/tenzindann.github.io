@@ -16,7 +16,7 @@ status:
 role: Sociologist, Anthropologist, AI Engineer
 bio: |
   I’m an AI Engineer with a Sociology and Anthropology background, and also a Computer Hardware Specialist and part-time Bike Engineer.
-  My research has been published on CNKI and mostly focuses on the social sciences. I'm also producing musics and game models for fun😁.
+  My research has been published on CNKI and mostly focuses on the social sciences. I'm also producing music and game models for fun.😁
 
 affiliations:
   - name: UCSD
@@ -44,11 +44,11 @@ interests:
 
 education:
   - degree: Master of Computational Social Science
-    institution: University of California SanDiego
+    institution: University of California, San Diego
     start: 2025-07-01
     end: 2026-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    #summary: |
+      #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
       url: /resume.pdf
@@ -77,7 +77,13 @@ experience:
     end: 2023-12-01
     summary: |
       Member of Tibetan-Qiang-Yi Cultural Research Institute of Southwest University for Nationalities, Project “Study of the Kham Dialect in Tibetan Language”
-     
+  - role: Research Fellow
+    org: Southwest Minzu University
+    start: 2020-02-07
+    end: 2021-10-22
+    summary: |
+      Secondary Writer of the National Social Sciences General Cultivation Project. “Investigation on the Kham Dialect of the Tibetan Language”
+
 skills:
   - name: Technical Skills
     items:
@@ -108,5 +114,5 @@ awards:
   - title: Best Paper Award
     awarder: NeurIPS
     date: "2022-12-01"
-    Summary: Awarded for groundbreaking work on efficient training of large models.
+    Summary: Awarded for outstanding publication of young scholars.
     icon: hero/trophy

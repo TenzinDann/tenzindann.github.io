@@ -59,6 +59,18 @@ education:
     end: 2022-06-15
 
 experience:
+  - role: Editorial Board Member
+    org: Southwest Minzu University
+    start: 2023-10-08
+    end: 2025-5-01
+    summary: |
+      Editorial Member of Southwest University for Nationalities’ Tibetan, Qiang, and Yi Culture Research Institute Project - “Dictionary of Common Words in Chinese, Tibetan, Qiang, and Yi”
+  - role: Research Assistant
+    org: Southwest Minzu University
+    start: 2022-07-21
+    end: 2024-12-31
+    summary: |
+      Member of National Social Science Fund Project, Project “Reference Grammar Study of the Muya Dialect of the Kham Variant in Tibetan Language”
   - role: Research Assistant
     org: Southwest Minzu University
     start: 2021-12-05
@@ -69,12 +81,12 @@ experience:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: Research Assistant
+  - role: Research Fellow
     org: Southwest Minzu University
-    start: 2022-07-21
-    end: 2024-12-31
+    start: 2020-02-07
+    end: 2021-10-22
     summary: |
-      Member of National Social Science Fund Project, Project “Reference Grammar Study of the Muya Dialect of the Kham Variant in Tibetan Language”
+      Secondary Writer of the National Social Sciences General Cultivation Project. “Investigation on the Kham Dialect of the Tibetan Language”
 
 skills:
   - name: Technical Skills

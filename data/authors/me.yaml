@@ -49,10 +49,10 @@ education:
     end: 2026-06-30
     #summary: |
       #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
+    #button:
+      #text: Download dissertation
+      #url: /resume.pdf
+      #icon: hero/arrow-down-tray
   - degree: Bachelor of Sociology
     institution: Southwest Minzu University
     start: 2018-09-01
@@ -98,16 +98,6 @@ skills:
       - label: Conference Presentation
         level: 4
       - label: Field Research Experiences
-        level: 5
-  - name: Hobbies
-    items:
-      - label: Computational Hardware Assembly
-        level: 5
-      - label: Mountain Bike Assembly and Repair
-        level: 5
-      - label: Deep Learning in Music, Painting and Video Production
-        level: 5
-      - label: Game Model Designing
         level: 5
 
 languages:

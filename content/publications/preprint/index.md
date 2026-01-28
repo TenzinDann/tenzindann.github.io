@@ -24,7 +24,7 @@ abstract: As one of the ancient and mysterious ethnic groups of Zang people, Zha
 
 tags:
 - Social Science
-- Minority Cultures
+- Minority Cultures Studies
 
 featured: true
 
@@ -72,7 +72,6 @@ projects: []
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.

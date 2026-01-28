@@ -1,47 +1,45 @@
 ---
-title: 'An example conference paper'
+title: 'The ghee flowers art of Lingque Temple in North Kham area'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - me
-  - Robert Ford
+  - Gen Ga Wengmu
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2020-11-23T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2020-11-23T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *HugoBlox Kit Conference*
-publication_short: In *ICW*
+publication: "*China Tibetology, 2020*(2)"
+publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: As a pure religious oil sculpture art of Gelugpa Sect of Tibetan Buddhism, ghee flowers art with religious theme is not only loved by Tibetan people in the whole Tibetan area, but also inherited and developed in Kham area far away from U-Tsang (dbu-gtsang). Among them, the ghee flowers of Lingque Temple, which is one of the thirteen holy temples in Kham area, and it is the most famous in Kham Tibetan area. Lingque Temple, full name is Lingque XingSheng Temple, is located in XianShui Town, Dawu County, Dkar Mdzes Tibetan Autonomous Prefecture, Sichuan Province. It’s not only a religious shrine of the Gelug Sect of Tibetan Buddhism, but also an art treasure house of ghee flowers in Kham area. The ghee flowers art and Ghee Flowers Lantern Festival derived from ghee flowers art have already meant more to the Dawu people than to the religious level. They have penetrated into all aspects of people's lives and have had an indelible impact on the lives of Dawu people.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Social Science
+  - Minority Cultures Studies
+  - Religion Studies
 
 # Display this page in the Featured widget?
 featured: true
 
-# Standard identifiers for auto-linking
-hugoblox:
-  ids:
-    doi: 10.5555/123456
 
 # Custom links
 links:
@@ -70,8 +68,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -81,10 +78,4 @@ projects:
 slides: ""
 ---
 
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

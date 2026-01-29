@@ -50,7 +50,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: [**Zhihu**]([https://unsplash.com/photos/s9CC2SKySJM](https://pic4.zhimg.com/v2-dbb576d593c054c5b2111abaf7cdb60f_1440w.jpg))'
   focal_point: ""
   preview_only: false
 

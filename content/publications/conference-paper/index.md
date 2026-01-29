@@ -24,7 +24,7 @@ publishDate: '2020-11-23T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*China Tibetology, 2020*(2)"
+publication: "*China Tibetology, 2020(2)*"
 publication_short: ""
 
 abstract: As a pure religious oil sculpture art of Gelugpa Sect of Tibetan Buddhism, ghee flowers art with religious theme is not only loved by Tibetan people in the whole Tibetan area, but also inherited and developed in Kham area far away from U-Tsang (dbu-gtsang). Among them, the ghee flowers of Lingque Temple, which is one of the thirteen holy temples in Kham area, and it is the most famous in Kham Tibetan area. Lingque Temple, full name is Lingque XingSheng Temple, is located in XianShui Town, Dawu County, Dkar Mdzes Tibetan Autonomous Prefecture, Sichuan Province. It’s not only a religious shrine of the Gelug Sect of Tibetan Buddhism, but also an art treasure house of ghee flowers in Kham area. The ghee flowers art and Ghee Flowers Lantern Festival derived from ghee flowers art have already meant more to the Dawu people than to the religious level. They have penetrated into all aspects of people's lives and have had an indelible impact on the lives of Dawu people.
@@ -62,7 +62,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**PersonalPhotograph**]'
+  caption: 'Image credit: [**Personal Photograph**]'
   focal_point: ''
   preview_only: false
 

@@ -9,9 +9,9 @@ authors:
   - Gen Ga Wengmu
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+#author_notes:
+  #- 'Equal contribution'
+  #- 'Equal contribution'
 
 date: '2020-11-23T00:00:00Z'
 
@@ -43,25 +43,28 @@ featured: true
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: https://github.com/HugoBlox/kit
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/kit
-  - type: video
-    url: https://youtube.com
+  #- type: pdf
+  #  url: ""
+  #- type: code
+  #  url: https://github.com/HugoBlox/kit
+  #- type: dataset
+  #  url: https://github.com/HugoBlox/kit
+  #- type: slides
+  #  url: https://www.slideshare.net/
+  #- type: source
+  #  url: https://github.com/HugoBlox/kit
+  #- type: video
+  #  url: https://youtube.com
+  - type: custom
+    label: CNKI
+    url: "https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=ZTAY202002009&uniplatform=OVERSEA&v=2ZXoUDuIE_dfpjyqcJtPYQXWeZnRwERyzOiaAnQ1U9sw7IgKv80nrHzTK5Br5IKZ"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+#image:
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  #focal_point: ''
+  #preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

@@ -42,11 +42,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        As a researcher, I—like many others—have a strong curiosity for new and emerging ideas. Whether in social science, cognitive science, or machine learning, I’m consistently drawn to exploring these uncharted worlds.
+        I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on institutions, customs, and religion in ethnic minority regions, and I have also studied relations between different ethnic groups.
+        Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning. Through this lens, I explore how model representations correspond to neural data—especially the relationship between modern vision models (e.g., CLIP/Transformers), fMRI responses, and high-level visual components.
+        Please feel free to reach out 😃
+    
     design:
       columns: '1'
   - block: collection
@@ -73,7 +73,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Portfolio
       filters:
         folders:
           - events
@@ -82,7 +82,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Recent Activities
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

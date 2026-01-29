@@ -29,7 +29,8 @@ tags:
 featured: true
 
 links:
-- type: website
+- type: custom
+  label: CNKI
   url: "https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2025&filename=KDSZ202501003&uniplatform=OVERSEA&v=Ww-cxPUktIXehThy5UhUUU40mRH5BGqOyVlpgL2niU90CsZsqcpwU-viD1FdQc9S"
 #- type: code
 #  url: https://github.com/HugoBlox/kit

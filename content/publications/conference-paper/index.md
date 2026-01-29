@@ -27,7 +27,12 @@ publication_types: ['article-journal']
 publication: "*China Tibetology. 2020, (02)*"
 publication_short: ""
 
-abstract: As a pure religious oil sculpture art of Gelugpa Sect of Tibetan Buddhism, ghee flowers art with religious theme is not only loved by Tibetan people in the whole Tibetan area, but also inherited and developed in Kham area far away from U-Tsang (dbu-gtsang). Among them, the ghee flowers of Lingque Temple, which is one of the thirteen holy temples in Kham area, and it is the most famous in Kham Tibetan area. Lingque Temple, full name is Lingque XingSheng Temple, is located in XianShui Town, Dawu County, Dkar Mdzes Tibetan Autonomous Prefecture, Sichuan Province. It’s not only a religious shrine of the Gelug Sect of Tibetan Buddhism, but also an art treasure house of ghee flowers in Kham area. The ghee flowers art and Ghee Flowers Lantern Festival derived from ghee flowers art have already meant more to the Dawu people than to the religious level. They have penetrated into all aspects of people's lives and have had an indelible impact on the lives of Dawu people.
+abstract: |-
+  This paper examines ghee flower art, a distinctive religious sculptural tradition associated with the Gelug sect of Tibetan Buddhism. While widely appreciated across the Tibetan cultural sphere, the tradition has also been actively inherited and developed in the Kham region.
+
+  Focusing on Lingque (Lingque Xingsheng) Temple in Xianshui Town, Dawu County, Garzê Tibetan Autonomous Prefecture, Sichuan Province—one of the thirteen holy temples in Kham—this study highlights the temple as a major center for ghee flower practice.
+
+  Beyond its religious function, ghee flower art and the Ghee Flower Lantern Festival have become deeply embedded in local social life. This paper argues that the practice operates not only as devotional art but also as a cultural institution that shapes community identity, everyday routines, and collective memory in Dawu.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

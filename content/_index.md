@@ -46,7 +46,7 @@ sections:
     
         I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on institutions, customs, and religion in ethnic minority regions, and I have also studied relations between different ethnic groups.
     
-        Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning. Through this lens, I explore how model representations correspond to neural data—especially the relationship between modern vision models (e.g., CLIP/Transformers), fMRI responses, and high-level visual components.
+        Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning.
     
         Please feel free to reach out 😃
     

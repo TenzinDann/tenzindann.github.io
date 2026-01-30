@@ -1,5 +1,5 @@
 ---
-title:  Sharpen your thinking with a second brain
+title:  How the Human Brain Makes Sense of Multimodal Movies
 summary: Create a personal knowledge base and share your knowledge with your peers.
 date: 2023-10-26
 authors:

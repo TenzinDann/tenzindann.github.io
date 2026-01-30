@@ -37,19 +37,36 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+    
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on institutions, customs, and religion in ethnic minority regions, and I have also studied relations between different ethnic groups.
-    
-        Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning.
-    
-        Please feel free to reach out 😃
-    
+        <style>
+        .my-research-justify p{
+          text-align: justify;
+          text-justify: inter-word;
+          text-align-last: left;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+          hyphens: auto;
+        }
+        @media (max-width: 900px){
+          .my-research-justify p{ text-align: left; hyphens: none; }
+        }
+        </style>
+
+        <div class="my-research-justify">
+          <p>I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on institutions, customs, and religion in ethnic minority regions, and I have also studied relations between different ethnic groups.</p>
+
+          <p>Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning.</p>
+
+          <p>Please feel free to reach out 😃</p>
+        </div>
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:

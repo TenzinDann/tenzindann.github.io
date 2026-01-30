@@ -1,5 +1,5 @@
 ---
-draft: ture
+draft: true
 title: 👩🏼‍🏫 Teach academic courses
 summary: Embed videos, podcasts, code, LaTeX math, and even test students!
 date: 2023-10-24

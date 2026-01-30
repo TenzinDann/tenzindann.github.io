@@ -1,9 +1,5 @@
 # Internal HugoBlox workflow - Updates README news section from RSS feed.
 # This file only runs on the HugoBlox org repo and can be safely deleted by end users.
-jobs:
-  update:
-    if: false
-
 name: Internal - Update README News
 
 on:

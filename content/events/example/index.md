@@ -8,7 +8,6 @@ authors:
 
 tags:
   - Portfolio
-  - Music
   - Art
 
 cover:
@@ -36,25 +35,26 @@ image:
 
 # projects: []
 ---
-Welcome to my portfolio album — a mixed bag of music, paintings, and 3D models.  
+Welcome to my portfolio album — a place for my personal creations.
 I’ll keep adding works here as I go.
 
 ## 🎵 Music
-- **Track 01 — Title**
+- **Future Bass**
   - Listen: (SoundCloud / YouTube / Bandcamp link)
   - Notes: a short one-liner about style / idea
-- **Track 02 — Title**
+- **Pop**
   - Listen: (link)
 
-## 🎨 Paintings / Illustrations
-- **Series / Piece — Title**
+## 🎨 Paintings
+- **Stable Diffusion**
   - Medium: digital / acrylic / ink
   - Preview: (image link or embed)
 
 ## 🎮 Game Assets
-- **Model — Title**
+- **Total War Warhammer Series**
   - Toolchain: Blender / ZBrush / Substance / etc.
   - Preview: (Sketchfab link / image)
   - Download (optional): (Google Drive/GitHub release)
 
-
+## 🎬 Concept Arts
+- **Still Working On**

@@ -17,14 +17,7 @@ publication_types: ["article-journal"]
 publication: "*Journal of Sichuan Minzu College. 2025, (01)*"
 publication_short: ""
 
-abstract: |-
-  As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other area of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day.
 
-  Zhaba is also famous for walking marriage. The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area.
-
-  In recent years, with the increasing frequency of cultural contact and ethnic exchanges, the custom of walking marriage in Zhaba has begun to undergo some changes, which poses new challenges to Zhaba, which is currently on the edge of endangered ethnic cultures.
-
-  Therefore, this article explores the social and cultural foundation, basic characteristics, and contemporary changes of the walking marriage customs of the Zhaba Zang people, in order to focus on and grasp the core elements that enable the preservation and transformation of the Zhaba walking marriage customs.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -76,3 +69,30 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<style>
+.justify-abstract{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: left;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+.justify-abstract p{ margin: 0 0 0.9rem 0; }
+@media (max-width: 900px){
+  .justify-abstract{ text-align: left; hyphens: none; }
+}
+</style>
+
+<div class="justify-abstract">
+  <p><strong>Abstract.</strong> As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other areas of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day.</p>
+
+  <p>Zhaba is also famous for walking marriage. The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area.</p>
+
+  <p>In recent years, with the increasing frequency of cultural contact and ethnic exchanges, the custom of walking marriage in Zhaba has begun to undergo some changes, which poses new challenges to Zhaba, which is currently on the edge of endangered ethnic cultures.</p>
+
+  <p>Therefore, this article explores the social and cultural foundation, basic characteristics, and contemporary changes of the walking marriage customs of the Zhaba Zang people, in order to focus on and grasp the core elements that enable the preservation and transformation of the Zhaba walking marriage customs.</p>
+</div>

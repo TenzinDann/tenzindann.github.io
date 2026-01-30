@@ -23,7 +23,7 @@ cover:
     enabled: true
     height: "80px"
   icon:
-    name: ""
+    name: "⭐"
 ---
 
 Create a personal knowledge base and share your knowledge with your peers.

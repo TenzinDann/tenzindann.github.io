@@ -99,7 +99,7 @@ slides: ""
 </style>
 
 <div class="justify-abstract">
-  <p><strong>Abstract.</strong> This paper examines ghee flower art, a distinctive religious sculptural tradition associated with the Gelug sect of Tibetan Buddhism. While widely appreciated across the Tibetan cultural sphere, the tradition has also been actively inherited and developed in the Kham region.</p>
+  <p><strong>Abstract:</strong> This paper examines ghee flower art, a distinctive religious sculptural tradition associated with the Gelug sect of Tibetan Buddhism. While widely appreciated across the Tibetan cultural sphere, the tradition has also been actively inherited and developed in the Kham region.</p>
 
   <p>Focusing on Lingque (Lingque Xingsheng) Temple in Xianshui Town, Dawu County, Garzê Tibetan Autonomous Prefecture, Sichuan Province—one of the thirteen holy temples in Kham—this study highlights the temple as a major center for ghee flower practice.</p>
 

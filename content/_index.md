@@ -76,7 +76,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Portfolio Album
+      title: Portfolio
       filters:
         folders:
           - events

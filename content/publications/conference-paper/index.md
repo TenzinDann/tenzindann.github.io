@@ -27,12 +27,6 @@ publication_types: ['article-journal']
 publication: "*China Tibetology. 2020, (02)*"
 publication_short: ""
 
-abstract: |-
-  This paper examines ghee flower art, a distinctive religious sculptural tradition associated with the Gelug sect of Tibetan Buddhism. While widely appreciated across the Tibetan cultural sphere, the tradition has also been actively inherited and developed in the Kham region.
-
-  Focusing on Lingque (Lingque Xingsheng) Temple in Xianshui Town, Dawu County, Garzê Tibetan Autonomous Prefecture, Sichuan Province—one of the thirteen holy temples in Kham—this study highlights the temple as a major center for ghee flower practice.
-
-  Beyond its religious function, ghee flower art and the Ghee Flower Lantern Festival have become deeply embedded in local social life. This paper argues that the practice operates not only as devotional art but also as a cultural institution that shapes community identity, everyday routines, and collective memory in Dawu.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -85,3 +79,29 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<style>
+.justify-abstract{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: left;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+.justify-abstract p{ margin: 0 0 0.9rem 0; }
+.justify-abstract p:last-child{ margin-bottom: 0; }
+@media (max-width: 900px){
+  .justify-abstract{ text-align: left; hyphens: none; }
+}
+</style>
+
+<div class="justify-abstract">
+  <p><strong>Abstract.</strong> This paper examines ghee flower art, a distinctive religious sculptural tradition associated with the Gelug sect of Tibetan Buddhism. While widely appreciated across the Tibetan cultural sphere, the tradition has also been actively inherited and developed in the Kham region.</p>
+
+  <p>Focusing on Lingque (Lingque Xingsheng) Temple in Xianshui Town, Dawu County, Garzê Tibetan Autonomous Prefecture, Sichuan Province—one of the thirteen holy temples in Kham—this study highlights the temple as a major center for ghee flower practice.</p>
+
+  <p>Beyond its religious function, ghee flower art and the Ghee Flower Lantern Festival have become deeply embedded in local social life. This paper argues that the practice operates not only as devotional art but also as a cultural institution that shapes community identity, everyday routines, and collective memory in Dawu.</p>
+</div>

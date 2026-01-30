@@ -1,5 +1,7 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
+draft: true
+
+title:  Easily create your own simple yet highly customizable blog
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2023-10-27
 
@@ -22,7 +24,7 @@ cover:
     enabled: true
     height: "80px"
   icon:
-    name: "✨"
+    name: ""
 
 authors:
   - me

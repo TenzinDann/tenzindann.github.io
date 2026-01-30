@@ -88,7 +88,7 @@ slides: ""
 </style>
 
 <div class="justify-abstract">
-  <p><strong>Abstract.</strong> As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other areas of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day.</p>
+  <p><strong>Abstract:</strong> As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other areas of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day.</p>
 
   <p>Zhaba is also famous for walking marriage. The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area.</p>
 

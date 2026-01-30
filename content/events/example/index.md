@@ -35,7 +35,7 @@ image:
 
 # projects: []
 ---
-Welcome to my portfolio album — a place for my personal creations.
+Welcome to my portfolio album — a place for my personal creations.<br>
 I’ll keep adding works here as I go.
 
 ## 🎵 Music

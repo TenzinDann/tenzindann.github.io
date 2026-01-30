@@ -48,7 +48,7 @@ education:
   - degree: Master of Computational Social Science
     institution: University of California, San Diego
     start: 2025-07-01
-    end: 2026-06-30
+    end: 2026-06-12
     #summary: |
       #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     #button:
@@ -58,7 +58,7 @@ education:
   - degree: Bachelor of Sociology
     institution: Southwest Minzu University
     start: 2018-09-01
-    end: 2022-06-15
+    end: 2022-06-27
 
 experience:
   - role: Editorial Board Member

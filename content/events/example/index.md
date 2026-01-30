@@ -10,14 +10,13 @@ tags:
   - Portfolio
   - Music
   - Art
-  - 3D
 
 featured: true
 
 # 如果你有封面图，就把图片放在同文件夹下命名为 featured.jpg/png
 # 然后你可以留这段；否则可以删掉 image 段
 image:
-  caption: "A small collection of things I make for fun."
+  caption: ""
   focal_point: "Center"
   preview_only: false
 
@@ -47,5 +46,4 @@ I’ll keep adding works here as I go.
   - Preview: (Sketchfab link / image)
   - Download (optional): (Google Drive/GitHub release)
 
-## 📌 Notes
-If you want any of the source files, feel free to reach out.
+

@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
 name: Build
 
 env:
@@ -65,7 +67,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: "${{ env.HUGO_VERSION }}"
+        hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
 
     # Cache dependencies (Go modules, node_modules) - stable, rarely changes

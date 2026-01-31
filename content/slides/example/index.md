@@ -337,13 +337,6 @@ This slide won't appear in the presentation but remains in source for reference.
 
 ## Thanks
 
-### Questions?
-
-- 🌐 Website: [hugoblox.com](https://hugoblox.com)
-- 🐦 X/Twitter: [@LoreLabs_](https://twitter.com/LoreLabs_)
-- 💬 Discord: [Join Community](https://discord.gg/z8wNYzb)
-- ⭐ GitHub: [Star us!](https://github.com/HugoBlox/kit)
-
 **All slides created with Markdown** • No vendor lock-in • Edit anywhere
 
 Note:

@@ -41,7 +41,7 @@ I’ll keep adding works here as I go.
 ## 🎵 Music
 - **Future Bass**
   - Listen: 
-  - Notes: 
+  #- Notes: 
 - **Pop**
   - Listen: 
 
@@ -53,7 +53,7 @@ I’ll keep adding works here as I go.
 ## 🎮 Game Assets
 - **Total War Warhammer Series**
   - Workshop:
-  - Preview: (Sketchfab link / image)
+  - Preview:
   #- Download (optional): (Google Drive/GitHub release)
 
 ## 🎬 Concept Arts

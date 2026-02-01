@@ -40,10 +40,10 @@ I’ll keep adding works here as I go.
 
 ## 🎵 Music
 - **Future Bass**
-  - Listen: (SoundCloud / YouTube / Bandcamp link)
-  - Notes: a short one-liner about style / idea
+  - Listen: 
+  - Notes: 
 - **Pop**
-  - Listen: (link)
+  - Listen: 
 
 ## 🎨 Paintings
 - **Stable Diffusion**
@@ -52,9 +52,9 @@ I’ll keep adding works here as I go.
 
 ## 🎮 Game Assets
 - **Total War Warhammer Series**
-  - Toolchain: Blender / ZBrush / Substance / etc.
+  - Workshop:
   - Preview: (Sketchfab link / image)
-  - Download (optional): (Google Drive/GitHub release)
+  #- Download (optional): (Google Drive/GitHub release)
 
 ## 🎬 Concept Arts
 - **Still Working On**

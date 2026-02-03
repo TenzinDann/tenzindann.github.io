@@ -1,5 +1,5 @@
 ---
-title: EQ-Automation
+title: Auto EQ
 date: 2026-01-26
 #links:
   #- type: repo

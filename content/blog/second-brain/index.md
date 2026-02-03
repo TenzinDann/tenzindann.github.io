@@ -30,7 +30,7 @@ cover:
 
 This is one of my project I'm working on right now.
 
-But the detail sill needs some time to polish.
+But the details sill needs some time to polish.
 
 ## Project Introduction
 

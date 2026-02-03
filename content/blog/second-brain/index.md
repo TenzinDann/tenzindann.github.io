@@ -6,6 +6,9 @@ authors:
   - me
 tags:
   - Cognitive Science
+  - Machine Learning
+  - Neuro Science
+
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 cover:
@@ -32,5 +35,3 @@ But the detail sill needs some time to polish.
 ## Project Introduction
 
 
-
-```

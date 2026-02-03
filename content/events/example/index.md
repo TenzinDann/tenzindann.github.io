@@ -47,7 +47,6 @@ I’ll keep adding works here as I go.
 
 ## 🎨 Paintings
 - **Stable Diffusion**
-  - Medium: digital / acrylic / ink
   - Preview:
 
 ## 🎮 Game Assets

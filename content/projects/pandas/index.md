@@ -1,5 +1,5 @@
 ---
-title: Auto-EQ
+title: EQ-Automation
 date: 2026-01-26
 #links:
   #- type: repo
@@ -9,6 +9,6 @@ tags:
   - Equalizer
 ---
 
-Automatic EQ tuning to a personalized target curve.
+Automatic Equalizer tuning to my personalized target curve.
 
 <!--more-->

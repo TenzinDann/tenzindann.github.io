@@ -1,6 +1,6 @@
 ---
 title: Auto-EQ
-date: 2026-1-26
+date: 2026-01-26
 #links:
   #- type: repo
     #url: 

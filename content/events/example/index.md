@@ -41,20 +41,19 @@ I’ll keep adding works here as I go.
 ## 🎵 Music
 - **Future Bass**
   - Listen: 
-  #- Notes: 
+
 - **Pop**
   - Listen: 
 
 ## 🎨 Paintings
 - **Stable Diffusion**
   - Medium: digital / acrylic / ink
-  - Preview: (image link or embed)
+  - Preview:
 
 ## 🎮 Game Assets
 - **Total War Warhammer Series**
   - Workshop:
   - Preview:
-  #- Download (optional): (Google Drive/GitHub release)
 
 ## 🎬 Concept Arts
 - **Still Working On**

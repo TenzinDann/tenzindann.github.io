@@ -90,17 +90,19 @@ skills:
   - name: Technical Skills
     items:
       - label: Data Analysis
-        level: 4
+        level: 3
       - label: Machine Learning
-        level: 4
+        level: 3
+      - label: Reinforcement Learning
+        level: 3
   - name: Research & Communication
     items:
       - label: Academic Writing
         level: 5
       - label: Field Research Experiences
         level: 5
-      - label: Conference Presentation
-        level: 4
+      - label: Cross-cultural Communication
+        level: 5
 
 languages:
   - name: Chinese

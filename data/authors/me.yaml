@@ -92,9 +92,9 @@ skills:
       - label: Data Analysis
         level: 3
       - label: Machine Learning
-        level: 3
+        level: 5
       - label: Reinforcement Learning
-        level: 3
+        level: 4
   - name: Research & Communication
     items:
       - label: Academic Writing

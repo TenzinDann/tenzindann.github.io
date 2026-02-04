@@ -7,7 +7,7 @@ authors:
 tags:
   - Cognitive Science
   - Machine Learning
-  - Neuro Science
+  - Neuroscience
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'

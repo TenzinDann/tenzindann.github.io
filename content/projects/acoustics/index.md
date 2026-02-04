@@ -9,6 +9,6 @@ tags:
   - Equalizer
 ---
 
-Automatic Equalizer tuning to my personalized target curve.
+An automatic Equalizer that can switch current audio chain to my personal customized EQ style.
 
 <!--more-->

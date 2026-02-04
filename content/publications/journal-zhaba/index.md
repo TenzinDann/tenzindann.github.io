@@ -88,7 +88,9 @@ slides: ""
 </style>
 
 <div class="justify-abstract">
-  <p><strong>Abstract:</strong> As an ancient Tibetan group, the Zhaba are known for distinctive languages and wedding customs. Their most representative practice is “walking marriage,” a matrilineal marriage system that highlights the authority of maternal kin and helps sustain long-standing modes of production and everyday life in the Zhaba region.</p>
+  <p><strong>Abstract:</strong> As one of the ancient and mysterious ethnic groups of Zang people, Zhaba has different wedding customs and ethnic languages from other areas of Zang people. Walking marriage is the most representative special marriage custom in the cultural heritage of the local matrilineal clan in Zhaba, which has continued to this day.</p>
+
+  <p>The walking marriage custom in Zhaba area is a special form of the marriage customs system of Zang People, which represents the supreme rights and status of matrilineal relatives in Zhaba area. It is also this special marriage custom that ensures the ancient production and lifestyle in Zhaba area.</p>
 
   <p>In recent years, with the increasing frequency of cultural contact and ethnic exchanges, the custom of walking marriage in Zhaba has begun to undergo some changes, which poses new challenges to Zhaba, which is currently on the edge of endangered ethnic cultures.</p>
 

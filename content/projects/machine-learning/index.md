@@ -10,6 +10,6 @@ tags:
   - 
 ---
 
-Personal ML repo.
+My machine learning repo
 
 <!--more-->

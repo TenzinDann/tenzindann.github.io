@@ -112,45 +112,6 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
 
-  - block: resume-experience
-    id: experience
-    content:
-      username: me
-    design:
-      date_format: 'January 2006'
-      is_education_first: false
-
-  - block: resume-skills
-    content:
-      title: Skills
-      username: me
-
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
-
-  - block: collection
-    id: projects
-    content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on.
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
-
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

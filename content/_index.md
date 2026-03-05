@@ -93,7 +93,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Blogs
+      title: Recent Activities
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

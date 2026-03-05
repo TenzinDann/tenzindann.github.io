@@ -31,7 +31,7 @@ featured: true
 links:
 - type: custom
   label: CNKI
-  url: "https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2025&filename=KDSZ202501003&uniplatform=OVERSEA&v=Ww-cxPUktIXehThy5UhUUU40mRH5BGqOyVlpgL2niU90CsZsqcpwU-viD1FdQc9S"
+  url: "https://oversea.cnki.net/knavi/journals/search?language=EN&q=KDSZ202501003&field=LY&date="
 #- type: code
 #  url: https://github.com/HugoBlox/kit
 #- type: slides

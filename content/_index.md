@@ -39,6 +39,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
     
   - block: markdown
+    id: research
     content:
       title: '📚 My Research'
       subtitle: ''

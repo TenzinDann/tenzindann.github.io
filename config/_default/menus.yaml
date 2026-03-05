@@ -10,15 +10,15 @@ main:
   - name: Publications
     url: /#papers
     weight: 11
-  - name: Profolio
+  - name: Protfolio
     url: /#talks
     weight: 12
   - name: Activities
     url: /#news
     weight: 13
   - name: Experience
-    url: experience/
+    url: /#experience
     weight: 20
   - name: Projects
-    url: projects/
+    url: /#projects
     weight: 30

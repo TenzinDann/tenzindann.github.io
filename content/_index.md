@@ -77,15 +77,29 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
+  - block: resume-experience
+    id: experience
     content:
-      title: Portfolio
-      filters:
-        folders:
-          - events
+      username: me
     design:
-      view: card
+      date_format: 'January 2006'
+      is_education_first: false
+
+  - block: resume-skills
+    content:
+      title: Skills
+      username: me
+
+  - block: resume-awards
+    content:
+      title: Awards
+      username: me
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
+
   - block: collection
     id: news
     content:
@@ -116,29 +130,6 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
 
-  - block: resume-experience
-    id: experience
-    content:
-      username: me
-    design:
-      date_format: 'January 2006'
-      is_education_first: false
-
-  - block: resume-skills
-    content:
-      title: Skills
-      username: me
-
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
-
   - block: collection
     id: projects
     content:
@@ -154,6 +145,16 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+
+  - block: collection
+    id: talks
+    content:
+      title: Portfolio
+      filters:
+        folders:
+          - events
+    design:
+      view: card
 
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site

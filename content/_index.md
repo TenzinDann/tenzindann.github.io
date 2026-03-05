@@ -29,6 +29,9 @@ sections:
         gradient_mesh:
           enable: true
 
+      biography:
+        style: 'text-align: justify; text-justify: inter-word; hyphens: auto; text-align-last: left;'
+
       # Name heading sizing to accommodate long or short names
       name:
         size: md # Options: xs, sm, md, lg (default), xl

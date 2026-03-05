@@ -13,12 +13,12 @@ main:
   - name: Experiences
     url: /#experience
     weight: 30
-  - name: Activities
+  - name: Notes
     url: /#news
     weight: 40
   - name: Projects
     url: /#projects
     weight: 50
-  - name: Protfolio
+  - name: Portfolio
     url: /#talks
     weight: 60

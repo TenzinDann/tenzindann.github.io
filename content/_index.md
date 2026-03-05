@@ -44,7 +44,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on religion and ethnic minority cultures, and I have also focus on the relations between different ethnic groups.
+        I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on religion, ethnic minority cultures and the relations between different ethnic groups.
     
         Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning.
     

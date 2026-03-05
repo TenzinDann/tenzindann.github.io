@@ -10,7 +10,7 @@ main:
   - name: Publications
     url: /#papers
     weight: 20
-  - name: Experience
+  - name: Experiences
     url: /#experience
     weight: 30
   - name: Activities

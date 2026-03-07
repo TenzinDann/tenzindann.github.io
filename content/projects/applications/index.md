@@ -17,7 +17,7 @@ This page collects my application projects.
   - An automatic Equalizer that can switch current audio chain to my personal customized EQ style.
 
   **Eye Trainer**
-  - An website for training movement eye sight.
+  - An website for training movement eyesight.
   - [Website Link](https://tenzindann.github.io/Eye-Trainer/)
 
 <!--more-->

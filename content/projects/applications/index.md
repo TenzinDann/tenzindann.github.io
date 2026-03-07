@@ -16,4 +16,7 @@ This page collects my application projects.
 - **Auto EQ**
   - An automatic Equalizer that can switch current audio chain to my personal customized EQ style.
 
+  **Eye Trainer**
+  - An website for training movement eye sight.
+
 <!--more-->

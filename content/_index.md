@@ -123,7 +123,7 @@ sections:
   - block: collection
     id: projects
     content:
-      title: Selected Projects
+      title: Featured Projects
       text: I enjoy making things. Here are a selection of projects that I have worked on.
       filters:
         folders:

@@ -1,7 +1,7 @@
 ---
 title:  How the Human Brain Makes Sense of Multimodal Movies
 summary: Building multimodal encoding models to predict human fMRI responses to naturalistic movies and probe how vision and sound are represented in the brain.
-date: 2023-10-26
+date: 2025-11-26
 authors:
   - me
 tags:

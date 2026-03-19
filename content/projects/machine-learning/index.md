@@ -12,4 +12,10 @@ tags:
 
 Personal ML repo.
 
+## Neuro Science Project
+  **Capstone**
+  - fMRI Multimodal Machine Learning
+  - [Website Link](https://tenzindann.github.io/capstone-web-present/)
+
+
 <!--more-->

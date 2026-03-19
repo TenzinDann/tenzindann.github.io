@@ -177,3 +177,12 @@
 #hero a[href="#experience"][aria-label="Scroll to content"] {
   bottom: 1rem;
 }
+
+/* Header brand logo only: scale to match title text height */
+.page-header .navbar-brand > svg,
+.page-header .navbar-brand > img {
+  height: 1.35em !important;
+  width: auto !important;
+  max-height: none !important;
+  vertical-align: -0.1em;
+}

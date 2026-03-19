@@ -172,3 +172,11 @@
     width: 14rem;
   }
 }
+
+/* Footer logo */
+.page-footer p.text-center img[alt="Footer Logo"] {
+  width: 58px;
+  height: auto;
+  margin: 0.5rem auto 0;
+  display: inline-block;
+}

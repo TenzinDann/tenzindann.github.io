@@ -19,9 +19,16 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Sociologist, Anthropologist, AI Engineer"
     # Social accounts (used for meta tags like Twitter Cards)
-    social: {}
+    social:
+      links:
+        - icon: at-symbol
+          url: mailto:cdanzeng@ucsd.edu
+        - icon: brands/github
+          url: https://github.com/TenzinDann
+        - icon: brands/linkedin
+          url: https://www.linkedin.com/in/fnu-danzengcairang/
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -102,10 +109,16 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     # Footer style variant
-    style: minimal # minimal | columns | centered
+    style: columns # minimal | columns | centered
+    logo_height: 88
+    show_logo: true
+    show_title: true
+    show_tagline: true
+    title: ""
     language_switcher: true
+    show_social: true
     # Custom footer text (HTML supported)
-    text: "![Footer Logo](/uploads/logo.svg)"
+    text: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT

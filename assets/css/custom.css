@@ -178,11 +178,16 @@
   bottom: 1rem;
 }
 
-/* Header brand logo only: scale to match title text height */
+/* Header brand logo only: slightly larger and perfectly aligned with title */
+.page-header .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
 .page-header .navbar-brand > svg,
 .page-header .navbar-brand > img {
-  height: 1.35em !important;
+  display: block;
+  height: 1.55em !important;
   width: auto !important;
   max-height: none !important;
-  vertical-align: -0.1em;
 }

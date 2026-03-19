@@ -33,7 +33,7 @@ sections:
         - text: Download CV
           url: uploads/resume.pdf
           icon: arrow-down
-        - text: About Me
+        - text: My Research
           url: "#research"
           icon: academic-cap
     design:

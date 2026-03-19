@@ -1,0 +1,174 @@
+/* Word-like justified text for article content */
+.article-style p,
+.article-style li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Better for Chinese/Japanese/Korean justification */
+:lang(zh) .article-style p,
+:lang(zh) .article-style li {
+  text-justify: inter-ideograph;
+  hyphens: none;
+}
+
+/* Hero self-introduction paragraph: centered for cleaner visual rhythm */
+#hero p[class*="max-w-2xl"][class*="leading-relaxed"] {
+  text-align: center;
+  text-align-last: center;
+  text-justify: auto;
+  hyphens: none;
+}
+
+/* Shared background that mirrors the homepage hero effect */
+#page-bg {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0a0a0f;
+  background-image:
+    radial-gradient(40rem 40rem at 50% 50%, rgba(37, 99, 235, 0.05), transparent 72%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: auto, 64px 64px, 64px 64px;
+  background-position: center center, 0 0, 0 0;
+}
+
+#page-bg::before,
+#page-bg::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(64px);
+  animation: hb-shared-hero-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+#page-bg::before {
+  top: 25%;
+  left: -5rem;
+  width: 24rem;
+  height: 24rem;
+  background: rgba(59, 130, 246, 0.2);
+}
+
+#page-bg::after {
+  bottom: 25%;
+  right: -5rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(6, 182, 212, 0.2);
+  animation-delay: 1s;
+}
+
+@keyframes hb-shared-hero-pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.page-footer,
+.page-footer footer {
+  background: transparent !important;
+}
+
+.page-body > section .home-section-bg {
+  background: transparent !important;
+}
+
+/* Force hero background layer to fully join the global #page-bg system */
+#hero > .home-section-bg,
+#hero > .home-section-bg[style*="--dark-bg-color"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Remove dark-mode seam line under gradient article covers (e.g. Portfolio Album) */
+.dark .article-cover[data-cover-style="gradient"] {
+  border-bottom: none !important;
+}
+
+/* Disable built-in hero local effects so homepage also uses shared #page-bg */
+#hero .absolute.inset-0.pointer-events-none {
+  display: none !important;
+}
+
+/* Looser vertical rhythm between homepage modules (except hero) */
+.page-body > section.hbb-section:not(#hero) {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+@media (min-width: 1024px) {
+  .page-body > section.hbb-section:not(#hero) {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+/* Tighter rhythm inside the resume cluster: Skills / Awards / Languages */
+.page-body > section#section-resume-skills.hbb-section,
+.page-body > section#section-resume-awards.hbb-section,
+.page-body > section#section-resume-languages.hbb-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .page-body > section#section-resume-skills.hbb-section,
+  .page-body > section#section-resume-awards.hbb-section,
+  .page-body > section#section-resume-languages.hbb-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* Re-open spacing after Languages before Recent Activities (match normal modules) */
+.page-body > section#section-resume-languages.hbb-section {
+  padding-bottom: 15rem;
+}
+
+@media (min-width: 1024px) {
+  .page-body > section#section-resume-languages.hbb-section {
+    padding-bottom: 18rem;
+  }
+}
+
+/* Keep spacing consistent across Recent Activities -> Featured Projects -> Portfolio */
+.page-body > section#news.hbb-section {
+  padding-bottom: 7.5rem !important;
+}
+
+@media (min-width: 1024px) {
+  .page-body > section#news.hbb-section {
+    padding-bottom: 9rem !important;
+  }
+}
+
+/* Fix low-contrast option text for native Theme picker on Windows */
+.page-header select[onchange*="data-theme-pack"] option {
+  color: #111827;
+  background-color: #ffffff;
+}
+
+.page-header select[onchange*="data-theme-pack"] option:checked {
+  color: #111827;
+  background-color: #bfdbfe;
+}
+
+/* Harmonize hero CTA buttons: same size and aligned */
+#hero .flex.flex-wrap.justify-center.gap-4 > a {
+  justify-content: center;
+  width: min(100%, 14rem);
+}
+
+@media (min-width: 640px) {
+  #hero .flex.flex-wrap.justify-center.gap-4 > a {
+    width: 14rem;
+  }
+}

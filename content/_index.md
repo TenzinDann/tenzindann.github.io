@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ''
 summary: ''
-date: 2022-10-24
+date: 2025-10-24
 type: landing
 
 design:
@@ -10,37 +10,43 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  # Developer Hero - New personal introduction
+  - block: dev-hero
+    id: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: 'Greetings! Stranger'
-        education: ''
-        interests: ''
+      greeting: "Greetings! Stranger"
+      show_status: true
+      show_scroll_indicator: true
+      scroll_target: "#experience"
+      typewriter:
+        enable: true
+        prefix: "I explore"
+        strings:
+          - "Social Science"
+          - "Machine Learning"
+          - "Large Language Models"
+        type_speed: 70
+        delete_speed: 40
+        pause_time: 2500
+      cta_buttons:
+        - text: Download CV
+          url: uploads/resume.pdf
+          icon: arrow-down
+        - text: About Me
+          url: "#research"
+          icon: academic-cap
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      style: centered
+      avatar_shape: circle
+      animations: true
       background:
-        gradient_mesh:
-          enable: true
+        color:
+          light: "#fafafa"
+          dark: "#0a0a0f"
+      spacing:
+        padding: ["6rem", "0", "6rem", "0"]
 
-      biography:
-        style: 'text-align: justify; text-justify: inter-word; hyphens: auto; text-align-last: left;'
-
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-    
   - block: markdown
     id: research
     content:
@@ -48,11 +54,11 @@ sections:
       subtitle: ''
       text: |-
         I previously trained and worked as a social science researcher with a background in sociology and anthropology. My earlier work focused on religion, ethnic minority cultures and the relations between different ethnic groups.
-    
+
         Currently, my main focus has shifted to computational neuroscience × machine learning. I am particularly interested in brain encoding/decoding models and representation learning, with an emphasis on vision and multimodal learning.
-    
+
         Please feel free to reach out 😃
-    
+
     design:
       columns: '1'
 
@@ -67,6 +73,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: resume-experience
     id: experience
     content:
@@ -96,11 +103,8 @@ sections:
       title: Recent Activities
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 10
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -109,14 +113,10 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
 

@@ -112,11 +112,11 @@ hugoblox:
     style: columns # minimal | columns | centered
     logo_height: 88
     show_logo: true
-    show_title: true
-    show_tagline: true
+    show_title: false
+    show_tagline: false
     title: ""
     language_switcher: true
-    show_social: true
+    show_social: false
     # Custom footer text (HTML supported)
     text: ""
 

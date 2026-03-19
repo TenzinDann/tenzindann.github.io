@@ -150,6 +150,23 @@
   }
 }
 
+/* Tighten only the gap between Portfolio section and footer logo on homepage */
+.page-body > section#talks.hbb-section {
+  padding-bottom: 2.5rem !important;
+}
+
+.page-body > section#talks.hbb-section + .page-footer > footer {
+  margin-top: 1.5rem !important;
+}
+
+.page-body > section#talks.hbb-section + .page-footer > footer > footer > div {
+  padding-top: 1rem !important;
+}
+
+.page-body > section#talks.hbb-section + .page-footer > footer > footer > div > div > div {
+  padding-top: 0.5rem !important;
+}
+
 /* Fix low-contrast option text for native Theme picker on Windows */
 .page-header select[onchange*="data-theme-pack"] option {
   color: #111827;

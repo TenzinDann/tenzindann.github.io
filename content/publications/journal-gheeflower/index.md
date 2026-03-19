@@ -56,7 +56,7 @@ links:
   #  url: https://youtube.com
   - type: custom
     label: CNKI
-    url: "https://oversea.cnki.net/knavi/journals/search?language=EN&q=ZTAY202002009&field=LY&date="
+    url: "https://oversea.cnki.net/kcms2/article/abstract?v=FCWB7knoBeTYtSjuBq-UWzwYsjFAoncAEvRpPcjVHV7iMdDzbg5zDXb58hpzIhKXuWxtlpthE9P3ROn5vf6i5WfzzkvqG-zib3iYbEwtqvusMjlolNJxxLTMnZbTiUaECHkvxOf-JDDCL5b1GLO9Z35NEIapivY-g2X84F3RDV0=&uniplatform=OVERSEA"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

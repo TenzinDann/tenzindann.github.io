@@ -172,3 +172,8 @@
     width: 14rem;
   }
 }
+
+/* Move hero scroll indicator slightly lower to separate from CTA buttons */
+#hero a[href="#experience"][aria-label="Scroll to content"] {
+  bottom: 1rem;
+}

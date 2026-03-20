@@ -1,0 +1,96 @@
+name: Deploy website to GitHub Pages
+
+on:
+  # Trigger the workflow every time you push to the `main` branch
+  push:
+    branches: ['main']
+  # Allows you to run this workflow manually from the Actions tab on GitHub
+  workflow_dispatch:
+
+# Provide permission to clone the repo and deploy it to GitHub Pages
+permissions:
+  contents: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  # Check deployment configuration
+  config:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    outputs:
+      deploy-host: ${{ steps.check.outputs.host }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        sparse-checkout: hugoblox.yaml
+        sparse-checkout-cone-mode: false
+
+    - name: Check deploy host
+      id: check
+      run: |
+        # Read deploy.host from hugoblox.yaml, default to github-pages
+        HOST=$((grep -A5 "^deploy:" hugoblox.yaml 2>/dev/null | grep -m1 "host:" | awk '{print $2}' | tr -d "\"'") || echo "github-pages")
+        HOST=${HOST:-github-pages}
+        echo "host=$HOST" >> $GITHUB_OUTPUT
+        echo "Deployment target: $HOST"
+
+  # Build website using reusable workflow (always runs for CI)
+  deploy:
+    needs: config
+    if: needs.config.outputs.deploy-host == 'github-pages'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: npm
+
+    - name: Setup pnpm
+      if: hashFiles('package.json') != ''
+      uses: pnpm/action-setup@v4
+
+    - name: Get Hugo Version
+      run: |
+        VERSION=$(grep -E '^[[:space:]]*hugo_version:' hugoblox.yaml | awk '{print $2}' | tr -d "\"'")
+        echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
+
+    - name: Install dependencies
+      run: |
+        if [ -f "package.json" ]; then
+          pnpm install --no-frozen-lockfile || npm install
+        fi
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
+
+    - name: Build with Hugo
+      env:
+        HUGO_ENVIRONMENT: production
+        HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
+      run: |
+        hugo --minify
+
+    - name: Generate Pagefind search index (if applicable)
+      run: |
+        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
+          pnpm run pagefind || npx pagefind --site "public"
+        fi
+
+    - name: Deploy to gh-pages branch
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages
+        force_orphan: true

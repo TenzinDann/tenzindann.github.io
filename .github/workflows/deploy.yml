@@ -7,9 +7,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
+# Provide permissions needed by this workflow.
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: 'pages'
@@ -32,65 +34,55 @@ jobs:
     - name: Check deploy host
       id: check
       run: |
+        # Install pinned yq version for robust YAML parsing
+        YQ_VERSION="v4.44.1"
+        if ! wget -q --tries=3 --waitretry=1 -O /tmp/yq \
+          "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"; then
+          echo "::error::Failed to download yq"
+          exit 1
+        fi
+        sudo mv /tmp/yq /usr/local/bin/yq
+        sudo chmod +x /usr/local/bin/yq
+
         # Read deploy.host from hugoblox.yaml, default to github-pages
-        HOST=$((grep -A5 "^deploy:" hugoblox.yaml 2>/dev/null | grep -m1 "host:" | awk '{print $2}' | tr -d "\"'") || echo "github-pages")
+        HOST=$(yq '.deploy.host // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
         HOST=${HOST:-github-pages}
+
+        # Validate known hosts
+        if [[ ! "$HOST" =~ ^(github-pages|netlify|vercel|cloudflare|none)$ ]]; then
+          echo "::warning::Unknown deploy host '$HOST', defaulting to github-pages"
+          HOST="github-pages"
+        fi
+
         echo "host=$HOST" >> $GITHUB_OUTPUT
         echo "Deployment target: $HOST"
 
   # Build website using reusable workflow (always runs for CI)
-  deploy:
+  build:
     needs: config
+    if: github.repository_owner != 'HugoBlox'
+    uses: ./.github/workflows/build.yml
+    secrets: inherit
+
+  # Deploy website to GitHub Pages hosting (only if configured)
+  deploy:
+    needs: [config, build]
     if: needs.config.outputs.deploy-host == 'github-pages'
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
       with:
-        node-version: 20
-        cache: npm
+        enablement: true
 
-    - name: Setup pnpm
-      if: hashFiles('package.json') != ''
-      uses: pnpm/action-setup@v4
-
-    - name: Get Hugo Version
-      run: |
-        VERSION=$(grep -E '^[[:space:]]*hugo_version:' hugoblox.yaml | awk '{print $2}' | tr -d "\"'")
-        echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
-
-    - name: Install dependencies
-      run: |
-        if [ -f "package.json" ]; then
-          pnpm install --no-frozen-lockfile || npm install
-        fi
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: ${{ env.HUGO_VERSION }}
-        extended: true
-
-    - name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-        HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
-      run: |
-        hugo --minify
-
-    - name: Generate Pagefind search index (if applicable)
-      run: |
-        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm run pagefind || npx pagefind --site "public"
-        fi
-
-    - name: Deploy to gh-pages branch
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        publish_branch: gh-pages
-        force_orphan: true
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
